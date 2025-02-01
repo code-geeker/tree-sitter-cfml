@@ -1,0 +1,10 @@
+prefix=/usr/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: tree-sitter-cfml
+Description: CFML grammar for tree-sitter
+URL: https://github.com/cfmleditor/tree-sitter-cfml
+Version: 0.23.2
+Libs: -L${libdir} -ltree-sitter-cfml
+Cflags: -I${includedir}
